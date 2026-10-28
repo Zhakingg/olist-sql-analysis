@@ -48,10 +48,8 @@ An end-to-end SQL Server analysis of a Brazilian online marketplace (the public 
 | [06_qualifying_views.sql](sql/06_qualifying_views.sql) | The completed-sale views used by Q3 to Q15 |
 | [questions/Q01.sql to Q15.sql](sql/questions) | One file per business question |
 
-## How to reproduce
-
-1. Install SQL Server and SSMS, create a database with `CREATE DATABASE Olist;`, and load the nine Kaggle CSVs.
-2. Run the files in `sql/` in numbered order, then the files in `sql/questions/`.
+## Images and Chart notes
+Analysis performed entirely in SQL Server (T-SQL). Charts were produced in Python (matplotlib) from the SQL query results; the PDF report was assembled with Python (ReportLab).
 
 ## About
 
